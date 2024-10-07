@@ -3,36 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Ficticio</title>
+    <title>Facundo Carrizo - Presentación Profesional</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
     <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Facu Carrizo</h1>
+        <h1>Facundo Carrizo</h1>
+        <h2>FULL STACK WEB DEVELOPER</h2>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#" onclick="loadSection('sobre-mi')">Sobre mí</a></li>
+                <li><a href="#" onclick="loadSection('proyectos')">Proyectos</a></li>
+                <li><a href="#" onclick="loadSection('hobbies')">Hobbies</a></li>
+                <li><a href="#" onclick="loadSection('contacto')">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <div class="image-container">
-            <img src="../Assets/Yo.jpeg" alt="Mi foto" style="width: 250px;">
-            <img src="../Assets/BlackHole_Icon.gif" alt="Icono de Agujero Negro" style="width: 500px;">
-        </div>
-        <h2>Buenos Aires, Argentina 🚩</h2>
-        <p>🪐☄✨🌌</p>
+    <main id="content">
+        <section id="sobre-mi" class="intro">
+            <div class="image-container">
+                <img src="../Assets/Yo.jpeg" alt="Mi foto" class="profile-img">
+                <img src="../Assets/BlackHole_Icon.gif" alt="Icono de Agujero Negro" class="icon-img">
+            </div>
+            <h2>Tigre, Buenos Aires, Argentina 🚩</h2>
+            <p>🪐☄✨🌌</p>
 
-        <h2>Sobre mí:</h2>
-        <p>¡Hola a todos! Bienvenidos a mi blog ficticio. Aquí compartiré mis experiencias, ideas y pensamientos.</p>
-        <p>Empiezo mencionando que me gusta muchísimo el Espacio, la Astronomía, la Astrofísica, todo lo que tenga que ver con el estudio de los astros.</p>
-        <p>Efectivamente, la foto del fondo es completamente real y fue tomada por el Telescopio Espacial James Webb 🔭</p>
-        <p><strong>NO LEO CARTAS ASTRALES.</strong></p>
-        <p>Me gusta mucho programar, el café frío, la ciencia ficción, gatos, el queso cheddar, andar en 🛹 y tocar el bajo, generalmente el drop C (bien Darky dea).</p>
+            <h2>Sobre mí:</h2>
+            <p>¡Hola que tal! Soy un apasionado por la tecnología y busco oportunidades para aplicar mis habilidades en el desarrollo de soluciones innovadoras en equipos colaborativos. Me encanta aprender y enfrentar nuevos desafíos en el campo de la programación.</p>
 
-        <h2>Experiencia</h2>
-        <p>A continuación, les dejo el enlace a <a href="https://github.com/Facu14carrizo" target="_blank" >mi perfil de GitHub</a>.</p>
-    </section>
+            <h2>Habilidades Técnicas</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>Python (Django)</li>
+                <li>C++</li>
+                <li>MySQL</li>
+                <li>CSS y Bootstrap</li>
+                <li>AutoDesk AutoCAD</li>
+                <li>Adobe Photoshop</li>
+                <li>Microsoft Office</li>
+                <li>FL Studio</li>
+            </ul>
+        </section>
+
+    </main>
 
     <footer>
-        <p>¡Gracias por visitar mi blog ficticio!</p>
+        <p>A continuación, les dejo el enlace a mi perfil de GitHub: 
+           <a href="https://github.com/Facu14carrizo" target="_blank">Facu14carrizo</a>.
+        </p>
     </footer>
+
+    
+    <script src="../JS/script.js"></script>
+
 </body>
 </html>
